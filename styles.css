@@ -9,7 +9,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
 
-    --primary-text-color: #653609;
+    --primary-text-color: rgba(183, 126, 16, 0.86);
     --secondary-text-color: #8c9892;
     --durability-text-color: rgba(125, 115, 106, 0.61);
     --icon-color: #7d716a;
@@ -159,13 +159,14 @@ body {
 
 .skills__header {
     color: var(--secondary-text-color);
-    text-align: center;
+    text-align: left;
     margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 .skills__text {
     color: var(--secondary-text-color);
-    text-align: justify;
+    text-align: center;
 }
 
 .experiences {
@@ -234,6 +235,7 @@ body {
 .additional-info__education-university-durability {
     color: var(--durability-text-color);
     text-align: left;
+    margin-top: 10px;
     margin-bottom: 10px;
     font-size: 15px;
 }
